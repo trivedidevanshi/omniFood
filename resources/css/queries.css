@@ -1,0 +1,154 @@
+/* Big tablet to 1200 px (widths smaller than the 1140px row width)*/
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/*Big tablet: [768px-1023px] */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .long-copy {
+    width: 95%;
+  }
+
+  .meal-photo img:hover {
+    transform: scale(1.08);
+  }
+
+  .app-screen {
+    width: 50%;
+  }
+
+  .works-step {
+    margin-bottom: 25px;
+  }
+
+  .works-step:last-of-type {
+    margin-bottom: 70px;
+  }
+
+  .city-font {
+    font-size: 92%;
+  }
+
+  .icon-small {
+    width: 7.5px;
+  }
+
+  .plan-box {
+    width: 98%;
+    margin-left: 1%;
+  }
+
+  .plan-price {
+    font-size: 280%;
+  }
+
+  .contact-form {
+    width: 70%;
+  }
+
+  .footer-nav li,
+  .social-links li {
+    margin-right: 13px;
+  }
+
+  footer {
+    padding: 30px;
+  }
+}
+
+/*Small tablet: [481px-767px] */
+@media only screen and (max-width: 767px) {
+
+  html,
+  body {
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+
+  h2 {
+    font-size: 160%;
+  }
+
+  .col {
+    width: 100%;
+    margin: 1% 0 0% 0%;
+  }
+
+  .steps-box:first-child {
+    text-align: center;
+  }
+
+  .app-screen {
+    width: 40%;
+  }
+
+  .works-step div {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    font-size: 110%;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  .steps-box:last-child {
+    margin-top: 30px;
+  }
+
+  .works-step {
+    margin-bottom: 15px;
+  }
+
+  .works-step:last-of-type {
+    margin-bottom: 50px;
+  }
+
+  .icon-small {
+    font-size: 120%;
+    width: 30px;
+    margin-right: 5px;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  footer {
+    text-align: center
+  }
+
+  .footer-nav {
+    float: none;
+    margin-bottom: 10px;
+  }
+
+  .social-links {
+    float: none;
+  }
+}
+
+/*Small phones */
+@media only screen and (max-width: 480px) {}
