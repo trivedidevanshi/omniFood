@@ -25,7 +25,8 @@
   }
 
   .meal-photo img:hover {
-    transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
   }
 
   .app-screen {
@@ -151,4 +152,11 @@
 }
 
 /*Small phones */
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 40px 0;
+  }
+  .contact-form{
+    width:100%;
+  }
+}
